@@ -1,4 +1,4 @@
-# Typed Bit Formater  [![Build Status](https://travis-ci.org/craigglesO/bit-formater.svg?branch=master)](https://travis-ci.org/craigglesO/bit-formater)
+# Typed Bit Formater  [![Build Status](https://travis-ci.org/CraigglesO/bit-formater.svg?branch=master)](https://travis-ci.org/CraigglesO/bit-formater)
 
 
 The type definition for [`bit-formater`]()
