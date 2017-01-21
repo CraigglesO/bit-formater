@@ -1,8 +1,9 @@
 {
   "name": "bit-formater",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "Format bit input. Options of a function and class",
   "main": "./out/bit-formater.js",
+  "typings": "bit-formater",
   "scripts": {
     "build": "echo building... && typings bundle -o out/index.d.ts",
     "lint": "echo linting... && tslint \"**/*.ts\" -e \"source/**\" -e \"source-test/**\" -e \"out/**\" -e \"node_modules/**\" -e \"typings/**\"",
@@ -30,5 +31,5 @@
     "type": "git",
     "url": "https://github.com/CraigglesO/bit-formater.git"
   },
-  "license": "ISC",
+  "license": "ISC"
 }

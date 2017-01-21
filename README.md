@@ -1,7 +1,9 @@
 # Typed Bit Formater  [![Build Status](https://travis-ci.org/CraigglesO/bit-formater.svg?branch=master)](https://travis-ci.org/CraigglesO/bit-formater)
+[![npm][npm-image]][npm-url]
 
-
-The type definition for [`bit-formater`]()
+[npm-image]: https://img.shields.io/npm/v/bit-formater.svg
+[npm-url]: https://npmjs.org/package/bit-formater
+[downloads-url]: https://npmjs.org/package/bit-formater
 
 ## LICENSE
 
@@ -12,8 +14,22 @@ MIT
 NPM:
 `npm install bit-formater`
 
-@TYPES
-`npm install @types/bit-formater`
+
+## How to Use
+
+``` typescript
+import { formatBytes, byteFormater } from 'bit-formater';
+
+
+  let x = formatBytes(234567543, 2);
+
+  let y = new byteFormater();
+  let r = y.add(12346765432);
+  console.log(r); // '12 GB 346 MB 765 KB and 432 Bytes downloaded'
+  r = y.add(93484952492834);
+  console.log(r); // '93 TB 496 GB 1298 MB 1258 KB and 1266 Bytes downloaded'
+
+```
 
 ## Contributing
 
@@ -30,12 +46,12 @@ npm run publish
 ## Updating
 
 Update `typings.json/version` to match the source version you are typing against.
-e.g. if you are creating typings for `chai@3.5.0`, then:
+e.g. if you are creating typings for `bit-formater@0.5.0`, then:
 
 ```js
 // typings.json
 {
-  "version": "3.5.0"
+  "version": "0.5.0"
   // ...
 }
 ```
