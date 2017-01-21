@@ -1,8 +1,8 @@
 {
   "name": "bit-formater",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "description": "Format bit input. Options of a function and class",
-  "main": "./out/bit-formater.js",
+  "main": "bit-formater.ts",
   "typings": "bit-formater",
   "scripts": {
     "build": "echo building... && typings bundle -o out/index.d.ts",
