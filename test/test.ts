@@ -8,4 +8,4 @@ test('See the output from bitFormater', (t) => {
   let x = bitFormater(234567543, 2);
   t.equal(x, '234.568 MB');
   t.end();
-})
+});
