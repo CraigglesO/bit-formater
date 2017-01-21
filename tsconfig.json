@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "None",
     "moduleResolution": "node",
     "outDir": "out"
   },
