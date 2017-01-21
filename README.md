@@ -5,6 +5,8 @@
 [npm-url]: https://npmjs.org/package/bit-formater
 [downloads-url]: https://npmjs.org/package/bit-formater
 
+Format bit input. Options of a function and class
+
 ## LICENSE
 
 MIT
