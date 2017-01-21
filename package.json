@@ -1,5 +1,8 @@
 {
-  "private": true,
+  "name": "bit-formater",
+  "version": "0.8.0",
+  "description": "Format bit input. Options of a function and class",
+  "main": "./out/bit-formater.js",
   "scripts": {
     "build": "echo building... && typings bundle -o out/index.d.ts",
     "lint": "echo linting... && tslint \"**/*.ts\" -e \"source/**\" -e \"source-test/**\" -e \"out/**\" -e \"node_modules/**\" -e \"typings/**\"",
@@ -21,5 +24,11 @@
     "tslint": "^4.3.1",
     "tslint-config-typings": "^0.3.1",
     "typings": "^2.1.0"
-  }
+  },
+  "author": "Craig OConnor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CraigglesO/bit-formater.git"
+  },
+  "license": "ISC",
 }
