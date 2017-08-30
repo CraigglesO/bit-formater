@@ -1,4 +1,6 @@
 # Typed Bit Formater  [![Build Status](https://travis-ci.org/CraigglesO/bit-formater.svg?branch=master)](https://travis-ci.org/CraigglesO/bit-formater)
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/CraigglesO/bit-formater.svg)](https://greenkeeper.io/)
 [![npm][npm-image]][npm-url]
 
 [npm-image]: https://img.shields.io/npm/v/bit-formater.svg
